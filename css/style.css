@@ -1,0 +1,394 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/*Navbar*/
+#navbar{
+    background-color: #000000;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 2px 2px #A5A5A5;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar-icon{
+    margin-left: 50px;
+}
+
+#item{
+    color: white;
+    margin-left: 25px;
+}
+
+#item:hover{
+    color: rgb(117, 117, 117);
+    text-decoration:overline;
+}
+/*Navbar*/
+
+
+/*Home*/
+#background{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:98vh;
+    background-image: url('../imgs/wp1.jpg');
+    background-repeat: no-repeat;
+}
+
+#txt_home{
+    color: white;
+    margin-top: 20px;
+}
+
+#logo_image{
+    margin-left: 30px
+}
+/*Home*/
+
+/*Promoções*/
+#promocoes{
+    display:flex;
+    height: 90vh
+}
+
+#content{
+    width: 50%;
+    background-color: white;
+}
+
+#title{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 25px;
+}
+
+#text{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px
+}
+
+#banners{
+    background: rgb(16,3,101);
+    background: linear-gradient(180deg, rgba(16,3,101,1) 0%, rgba(162,0,0,1) 100%);
+    width: 50%;
+    height: 100%;
+    padding-bottom: 50px;
+    
+}
+
+#textop{
+    margin-top: 50px;
+    margin-left: 80px
+}
+
+#parceiros{
+    margin-left: 100px
+}
+
+#content_promo{
+    display: flex;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao-promo{
+    background-color: #000123;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 20px; 
+}
+
+#botao-promo:hover{
+    background-color: #c5c5c5;
+    color: #000123;
+    transform: scale(0.9);
+}
+
+#firula{
+    height: 8px;
+    width: 150px;
+    background-color: #000123;
+}
+
+#firula2{
+    height: 8px;
+    width: 100px;
+    background-color: #ffffff;
+}
+
+#firula3{
+    height: 8px;
+    width: 50px;
+    background-color: #9e0000;
+}
+
+#linha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Promoções*/
+
+/*Sobre*/
+#carrossel{
+    height: 90vh;
+}
+
+#imgc1{
+   width: 100%
+}
+
+#imgc2{
+    width: 100%
+}
+
+#linha-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px
+}
+
+
+/*Sobre*/
+
+
+#noticias{
+    background: rgb(13,13,28);
+    background: linear-gradient(180deg, rgba(13,13,28,1) 0%, rgba(29,29,29,1) 100%);
+    height: 100vh;
+}
+
+#tn-n{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 25px;
+}
+
+#linha-noticias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#noticia1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#top{
+    background-image: url('../imgs/anitta.jpg');
+    height: 42vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#content-n1{
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 37vw
+}
+
+#txt-not1{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#button-n{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao-not{
+    background-color: #000123;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 20px; 
+}
+
+#botao-not:hover{
+    background-color: #c5c5c5;
+    color: #000123;
+    transform: scale(0.9);
+}
+
+#tt-not{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40%;
+    color: white;
+}
+
+
+#tn{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#produtos-pag{
+    background-color: white;
+    height: 110vh
+}
+
+#linha-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top:30px
+}
+
+#line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top:20px
+}
+
+#button-com{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao-c{
+    background-color: #cf001c;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 20px; 
+}
+
+#botao-c:hover{
+    background-color: #c5c5c5;
+    color: #000123;
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+#feedback{
+    background-color: #050a66;
+    height: 90vh
+}
+
+#titulo-page{
+    padding-top: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#linha-f{
+    color: white;
+}
+
+#carrossel-feedback{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+#one{
+    background: white;
+    margin-left: 50px
+}
+
+#two{
+    background-color: white;
+}
+
+#three{
+    background-color: white;
+    margin-right: 50px
+}
+
+#titulo-feedback{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#combo-fb{
+    margin-bottom: 25px
+}
+
+#titulo-feedback{
+    margin-left: 20px
+}
+
+#txt-feedback{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#combo-fb{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    gap: 80px;
+}
+
+
+
+
+
+
+#pepsi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-logo{
+    margin-top: 100px
+}
+
+#copyright{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
